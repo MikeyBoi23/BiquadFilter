@@ -5,3 +5,6 @@ Next Steps:
   - Send a control signal from MB to the word splitter in order to simplify TB and avoid manufactured wait times for reading/processing to begin
   - Write processed samples back into BRAM instead of dumping output through the TB
   - Employ UART TX path to send the output file back to end user to generate new plot through our python script
+
+Note:
+This repository is meant to showcase the code and cannot be lifted and used in Vivado directly, many other files and directories, such as our .xsa/Vitis platform and component, would be needed.
